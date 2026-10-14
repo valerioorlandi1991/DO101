@@ -14,4 +14,4 @@ resources:
     cpu: 200m
     memory: 128Mi
 html:
-  message: "Hello World!"
+  message: "Hello Lottomatica!"

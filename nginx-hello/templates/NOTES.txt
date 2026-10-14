@@ -1,0 +1,3 @@
+NGINX Hello World installato!
+kubectl -n {{ .Release.Namespace }} port-forward svc/{{ include "nginx-hello.fullname" . }} 8080:{{ .Values.service.port }}
+Apri http://localhost:8080
